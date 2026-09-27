@@ -5,7 +5,7 @@ description = "Система мониторинга подписки ПРАЙМ
 requires-python = ">=3.12"
 dependencies = [
     "ipykernel>=7.0",
-    "jupyterlab>=4.4",
+    "jupyterlab>=4.4,<5",
     "matplotlib>=3.10",
     "pandas>=3.0",
     "psycopg[binary]>=3.2",
